@@ -95,7 +95,7 @@ ul li::before {
 .recipe__title {
     font-weight: var(--titles-font-weight);
     color: var(--stone-900);
-    font-size: max(2.4rem, 2.75vw);
+    font-size: min(2.4rem);
     line-height: 2.5rem;
 }
 
