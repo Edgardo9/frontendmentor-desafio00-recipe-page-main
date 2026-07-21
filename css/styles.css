@@ -114,8 +114,8 @@ ul li::before {
     flex-direction: column;
     gap: 1em;
     position: relative;
-    margin-inline: 3.125rem;
-    margin-block: 1rem;
+    margin-inline: min(3.125rem);
+    margin-block: min(1rem);
 }
 
 .preparation__dest, .instructions__dest, .preparation__title {
