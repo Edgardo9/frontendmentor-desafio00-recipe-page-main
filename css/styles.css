@@ -49,7 +49,7 @@ hr {
     inline-size: 90%;
     margin-inline: auto;
     border: none;
-    height: 0.1rem;
+    block-size: 0.1rem;
     background-color: var(--stone-150);
 }
 
@@ -65,7 +65,7 @@ ul li::before {
     margin-inline: auto;
     margin-block: min(2em);
     background-color: var(--white);
-    padding: 0.00625rem;
+    padding: min(0.00625rem);
     border-radius: var(--general-border-radius);
 }
 
