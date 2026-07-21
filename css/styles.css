@@ -173,7 +173,7 @@ ul li::before {
     content: counter(mi-contador) ".";  
     color: var(--brown-800);
     font-size: min(1.1rem, 5vw);
-    margin-inline-end: 0.9375rem;
+    margin-inline-end: min(0.9375rem);
     position: absolute;
     font-weight: 800;
 }
