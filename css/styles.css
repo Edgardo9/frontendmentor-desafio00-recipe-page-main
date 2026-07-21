@@ -130,7 +130,7 @@ ul li::before {
 .ingredients__title, .instructions__title, .nutrition__title {
     color: var(--brown-800);
     font-weight: var(--titles-font-weight);
-    font-size: max(1.7rem, 2.2vw);
+    font-size: min(1.7rem);
 }
 
 .instructions__steps {
