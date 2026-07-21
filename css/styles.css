@@ -56,7 +56,7 @@ hr {
 ul li::before {
   content: "•";
   color: var(--brown-800);
-  font-size: 1.875rem;
+  font-size: min(1.875rem);
   position: absolute;
 }
 
