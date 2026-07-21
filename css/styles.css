@@ -153,7 +153,7 @@ ul li::before {
 }
 
 .nutrition__row {
-    padding-block: max(0.8em, 2vh);
+    padding-block: min(0.8em);
     padding-inline: var(--tables-padding);
     display: flex;
     flex-direction: row;
