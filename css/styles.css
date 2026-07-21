@@ -58,7 +58,7 @@ hr {
     margin-inline: auto;
     margin-block: 3em;
     background-color: var(--white);
-    padding: 0.1px;
+    padding: 0.00625rem;
     border-radius: var(--general-border-radius);
 }
 
@@ -103,13 +103,12 @@ hr {
 }
 
 .preparation__steps, .ingredients__steps, .instructions__steps {
-    margin-inline-start: var(--general-container-margin);
-    margin-block-start: var(--general-container-margin);
     display: flex;
     flex-direction: column;
     gap: 1em;
     position: relative;
-    margin-inline: 50px;
+    margin-inline: 3.125rem;
+    margin-block: 1rem;
 }
 
 ul li::before {
@@ -149,10 +148,6 @@ ul.preparation__steps li::before {
     font-size: max(1.7rem, 2.2vw);
 }
 
-.ingredients__steps li::before, .instructions__steps li::before {
-    left: -2.6875rem;
-}
-
 .ingredients__steps li:nth-of-type(1)::before {
     top: -0.5rem;
 }
@@ -185,9 +180,13 @@ ul.preparation__steps li::before {
     content: counter(mi-contador) ".";  
     color: var(--brown-800);
     font-size: min(1.1rem, 5vw);
-    margin-right: 0.9375rem;
+    margin-inline-end: 0.9375rem;
     position: absolute;
     font-weight: 800;
+}
+
+.ingredients__steps li::before, .instructions__steps li::before {
+    left: -2.6875rem;
 }
 
 .nutrition__desc {
